@@ -6,7 +6,8 @@ body{
 }
 
   header {
-    background-color: #769aaf;
+    opacity: 0.9;
+    background-color: rgb(102, 119, 145);
     padding: 0px;
     box-shadow: 0 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
@@ -44,12 +45,13 @@ body{
     display: flex;
     padding: 0px 20px;
     text-decoration: none;
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: 700;
     transition: color 0.4s ease;
 }
 
 .navbar-content a:hover {
+    transition: color 0.4s ease;
     color: #023047;
 }
 
@@ -72,6 +74,6 @@ body{
 }
 
 .bn38:hover {
-    background-color: rgb(162, 203, 241);
+    background-color: rgb(82, 95, 112);
 }
 
